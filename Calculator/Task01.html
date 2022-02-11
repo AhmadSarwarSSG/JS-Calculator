@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="Tas01_Fucntion.js"></script>
+    <link rel="stylesheet" href="Task01_Style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div id="main-container">
+        <div id="text-area">
+            <input type="text" id="textbox">
+        </div>
+        <div id="Board">
+            <div id="keypad">
+                <div class="btn-cotainer"><button class="btn">Rad</button></div>
+                <div class="btn-cotainer"><button class="btn">Deg</button></div>
+                <div class="btn-cotainer"><button class="btn">x!</button></div>
+                <div class="btn-cotainer"><button class="btn sign" value="(" onclick="sign(0)">(</button></div>
+                <div class="btn-cotainer"><button class="btn sign" value=")" onclick="sign(1)">)</button></div>
+                <div class="btn-cotainer"><button class="btn">%</button></div>
+                <div class="btn-cotainer"><button class="btn" onclick="AC()">AC</button></div>
+                <div class="btn-cotainer"><button class="btn">inv</button></div>
+                <div class="btn-cotainer"><button class="btn">sin</button></div>
+                <div class="btn-cotainer"><button class="btn">ln</button></div>
+                <div class="btn-cotainer"><button class="btn sign number" value="7" onclick="sign(2)">7</button></div>
+                <div class="btn-cotainer"><button class="btn sign number" value="8" onclick="sign(3)">8</button></div>
+                <div class="btn-cotainer"><button class="btn sign number" value="9" onclick="sign(4)">9</button></div>
+                <div class="btn-cotainer"><button class="btn sign" value="/" onclick="sign(5)">/</button></div>
+                <div class="btn-cotainer"><button class="btn">pi</button></div>
+                <div class="btn-cotainer"><button class="btn">cos</button></div>
+                <div class="btn-cotainer"><button class="btn">log</button></div>
+                <div class="btn-cotainer"><button class="btn sign number" value="4" onclick="sign(6)">4</button></div>
+                <div class="btn-cotainer"><button class="btn sign number" value="5" onclick="sign(7)">5</button></div>
+                <div class="btn-cotainer"><button class="btn sign number" value="6" onclick="sign(8)">6</button></div>
+                <div class="btn-cotainer"><button class="btn sign" value="*" onclick="sign(9)">*</button></div>
+                <div class="btn-cotainer"><button class="btn">e</button></div>
+                <div class="btn-cotainer"><button class="btn">tan</button></div>
+                <div class="btn-cotainer"><button class="btn">sqrt</button></div>
+                <div class="btn-cotainer"><button class="btn sign number" value="1" onclick="sign(10)">1</button></div>
+                <div class="btn-cotainer"><button class="btn sign number" value="2" onclick="sign(11)">2</button></div>
+                <div class="btn-cotainer"><button class="btn sign number" value="3" onclick="sign(12)">3</button></div>
+                <div class="btn-cotainer"><button class="btn sign" value="-" onclick="sign(13)">-</button></div>
+                <div class="btn-cotainer"><button class="btn" onclick="ANS()">ANS</button></div>
+                <div class="btn-cotainer"><button class="btn">EXP</button></div>
+                <div class="btn-cotainer"><button class="btn">x^2</button></div>
+                <div class="btn-cotainer"><button class="btn sign" value="." onclick="sign(14)">.</button></div>
+                <div class="btn-cotainer"><button class="btn sign number" value="0" onclick="sign(15)">0</button></div>
+                <div class="btn-cotainer"><button class="btn sign equal" value="=" onclick="answer(16)">=</button></div>
+                <div class="btn-cotainer"><button class="btn sign" value="+" onclick="sign(17)">+</button></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

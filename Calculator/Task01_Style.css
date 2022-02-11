@@ -1,0 +1,57 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#main-container {
+  width: 30%;
+  margin: auto;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid grey;
+}
+
+#text-area input {
+  border: 3px solid rgb(46, 161, 255);
+  border-radius: 15px;
+  padding: 15px;
+  font-size: 20px;
+  width: 100%;
+}
+
+#text-area {
+  padding: 5px;
+  display: flex;
+}
+
+#Board {
+  display: grid;
+}
+
+#keypad {
+  flex-grow: 1;
+  display: grid;
+  grid-template-columns: 13.2% 13.2% 13.2% 13.2% 13.2% 13.2% 13.2%;
+  row-gap: 5px;
+  column-gap: 5px;
+  padding: 5px;
+  width: 98%;
+}
+
+.btn {
+  width: 100%;
+  background-color: rgb(175, 175, 175);
+  border-radius: 5px;
+  border: 0px solid grey;
+  padding: 5px;
+}
+
+.number {
+  background-color: rgb(211, 211, 211);
+  font-weight: bold;
+}
+
+.equal {
+  background-color: rgb(46, 161, 255);
+}
